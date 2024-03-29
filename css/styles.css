@@ -7,7 +7,7 @@
 }
 
 :root {
-	--background-body: #020617;
+	--background-body: #FAFAF9;
 	--background-card: #FFF;
 	--background-picture: #F7E4F1;
 	--background-tag: #E6D6FC;
@@ -38,6 +38,7 @@ body {
 		gap: 1rem;
 		border-top-left-radius: 1rem;
 		border-top-right-radius: 1rem;
+		box-shadow: 0 30px 100px 0 rgba(17, 23, 41, 0.05);
 		
 		& picture {
 			background: var(--background-picture);
@@ -49,7 +50,7 @@ body {
 			img {
 				width: 100%;
 				height: 100%;
-				object-fit: contain;
+				object-fit: cover;
 			}
 		}
 		
